@@ -1,10 +1,12 @@
 [package]
 name = "trash-utils"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Caleb Bassi <calebjbassi@gmail.com>"]
 edition = "2018"
 license = "MIT"
 description = "Cross platform crate for interacting with the trash"
+readme = "README.md"
+repository = "https://github.com/cjbassi/trash-utils-rs"
 
 [dependencies]
 platform-dirs = "0.1.0"
