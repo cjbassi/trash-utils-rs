@@ -1,6 +1,6 @@
 [package]
 name = "trash-utils"
-version = "0.1.1"
+version = "0.2.0"
 authors = ["Caleb Bassi <calebjbassi@gmail.com>"]
 edition = "2018"
 license = "MIT"

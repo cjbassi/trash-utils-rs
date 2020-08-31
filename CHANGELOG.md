@@ -15,8 +15,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [v0.2.0] - 2020-08-31
+
 ### Changed
 
 - rename delete_file to erase_file
 
-[Unreleased]: https://github.com/cjbassi/trash-utils-rs/compare/v1.1.0...HEAD
+[Unreleased]: https://github.com/cjbassi/trash-utils-rs/compare/v0.2.0...HEAD
+[v0.2.0]: https://github.com/rust-psutil/rust-psutil/compare/v0.1.1...v0.2.0

@@ -12,5 +12,5 @@ Add the following to Cargo.toml:
 
 ```toml
 [dependencies]
-trash-utils = "0.1.0"
+trash-utils = "0.2.0"
 ```
