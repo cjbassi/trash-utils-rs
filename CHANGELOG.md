@@ -22,4 +22,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - rename delete_file to erase_file
 
 [Unreleased]: https://github.com/cjbassi/trash-utils-rs/compare/v0.2.0...HEAD
-[v0.2.0]: https://github.com/rust-psutil/rust-psutil/compare/v0.1.1...v0.2.0
+[v0.2.0]: https://github.com/cjbassi/trash-utils-rs/compare/0.1.1...v0.2.0
