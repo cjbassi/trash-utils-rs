@@ -138,7 +138,7 @@ impl Trash {
         Ok(restored_path)
     }
 
-    pub fn delete_file<P>(&self, path: P) -> Result<()>
+    pub fn erase_file<P>(&self, path: P) -> Result<()>
     where
         P: AsRef<Path>,
     {
@@ -274,7 +274,7 @@ mod tests {
     fn test_restore_trashed_file() {}
 
     #[test]
-    fn test_delete_file() {
+    fn test_erase_file() {
         use std::fs::File;
 
         let trash = Trash {
@@ -297,7 +297,7 @@ mod tests {
         assert!((&in_trash).exists());
         assert!((&in_trash_trash_info).exists());
 
-        trash.delete_file(&in_trash);
+        trash.erase_file(&in_trash);
 
         assert!(!(&in_trash).exists());
         assert!(!(&in_trash_trash_info).exists());
@@ -305,7 +305,7 @@ mod tests {
         let out_trash = trash.home_trash.join("asdf");
         File::create(&out_trash);
         assert!(&out_trash.exists());
-        trash.delete_file(&out_trash);
+        trash.erase_file(&out_trash);
         assert!(!&out_trash.exists());
 
         fs::remove_dir_all(trash.home_trash).unwrap();
