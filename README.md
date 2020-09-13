@@ -15,6 +15,10 @@ Add the following to Cargo.toml:
 trash-utils = "0.2.0"
 ```
 
+## Apps using trash-utils-rs
+
+- [trash-cli](https://github.com/cjbassi/trash-cli)
+
 ## Related projects
 
 - sindresorhus
