@@ -1,6 +1,7 @@
 # trash-utils-rs
 
 [![crates.io](https://img.shields.io/crates/v/trash-utils.svg)](https://crates.io/crates/trash-utils)
+[![docs.rs](https://docs.rs/trash-utils/badge.svg)](https://docs.rs/trash-utils)
 
 A cross platform Rust library for interacting with the trash.
 
