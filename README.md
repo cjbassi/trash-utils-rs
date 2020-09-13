@@ -3,9 +3,11 @@
 [![crates.io](https://img.shields.io/crates/v/trash-utils.svg)](https://crates.io/crates/trash-utils)
 [![docs.rs](https://docs.rs/trash-utils/badge.svg)](https://docs.rs/trash-utils)
 
-A cross platform Rust library for interacting with the trash.
+A Rust library for interacting with the OS's trash-can.
 
-**Warning**: trash-utils is currently beta level and no guarantees are made about its integrity of managing your files. Additionally, it currently only works on Linux, and it only interacts with the home trash and does not properly handle trashing files if the files are on a different filesystem/partition as your home folder.
+Currently only Linux is supported.
+
+**Warning**: trash-utils is currently beta level and no guarantees are made about its integrity of managing your files. Additionally, it currently does not properly handle trashing files if the files are on a different filesystem/partition than the home folder.
 
 ## Usage
 
