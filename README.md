@@ -14,3 +14,10 @@ Add the following to Cargo.toml:
 [dependencies]
 trash-utils = "0.2.0"
 ```
+
+## Related projects
+
+- sindresorhus
+  - [empty-trash](https://github.com/sindresorhus/empty-trash)
+  - [trash](https://github.com/sindresorhus/trash)
+- [trash](https://github.com/ArturKovacs/trash)
