@@ -20,7 +20,7 @@ trash-utils = "0.2.0"
 
 ## Apps using trash-utils-rs
 
-- [trash-cli](https://github.com/cjbassi/trash-cli)
+- [trash-man](https://github.com/cjbassi/trash-man)
 
 ## Related projects
 
