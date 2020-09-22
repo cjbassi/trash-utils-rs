@@ -1,3 +1,5 @@
+### **NO LONGER MAINTAINED.** Deprecated in favor of https://github.com/ArturKovacs/trash.
+
 # trash-utils-rs
 
 [![crates.io](https://img.shields.io/crates/v/trash-utils.svg)](https://crates.io/crates/trash-utils)
